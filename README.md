@@ -129,15 +129,7 @@ python src/grouped_bar.py
 
 5. Generated plots will be saved in the `plots/` folder.
 
----
 
-## Contributing
-- Fork the repository.  
-- Create a feature branch.  
-- Make changes and submit a **pull request**.  
 
----
 
-## License
-This project is licensed under the MIT License.
 

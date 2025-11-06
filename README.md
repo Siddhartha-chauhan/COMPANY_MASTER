@@ -121,10 +121,10 @@ pip install -r requirements.txt
 
 4. Run the analysis scripts from `src/`:
 ```bash
-python src/calculate_histogram.py
-python src/bar_plot_year.py
-python src/bar_plot_district_2015.py
-python src/grouped_bar_plot.py
+python src/Authorized_Cap.py
+python src/company_registration_per_year.py
+python src/Registration_2015_by_district.py
+python src/grouped_bar.py
 ```
 
 5. Generated plots will be saved in the `plots/` folder.
@@ -140,3 +140,4 @@ python src/grouped_bar_plot.py
 
 ## License
 This project is licensed under the MIT License.
+

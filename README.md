@@ -24,8 +24,7 @@ The aim of this project is to **convert raw open data into insightful visualizat
 
 ## Requirements
 - Python 3.x  
-- Packages: `matplotlib`, `numpy`, `pandas`  
-- Optional: `jupyter` if you want to run notebooks  
+- Packages: `matplotlib`  
 
 Install dependencies via:
 ```bash
@@ -41,7 +40,7 @@ Company_Master_Project/
 ├── data/           # CSV files (raw datasets)
 ├── plots/          # Generated plots
 ├── src/            # Python scripts for data analysis
-├── venv/           # Virtual environment
+├── .gitignore
 ├── README.md       # Project description and instructions
 └── requirements.txt
 ```
@@ -53,10 +52,10 @@ Company_Master_Project/
 The Python scripts in this project perform the following tasks:
 
 1. **Read the data**  
-   - Load CSV and other source files as Python dictionaries or pandas DataFrames.  
+
 
 2. **Process the data**  
-   - Slice, dice, accumulate, and transform the data for analysis.  
+   
 
 3. **Generate visualizations** using `matplotlib`:
 
@@ -128,6 +127,7 @@ python src/grouped_bar.py
 ```
 
 5. Generated plots will be saved in the `plots/` folder.
+
 
 
 
